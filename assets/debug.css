@@ -270,6 +270,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    margin-bottom: 10rem;
 }
 
 .card{
@@ -278,5 +279,17 @@ li {
 
 .imgcard{
     width: 100%;
+}
+
+
+.businessinfo {
+    width: 60%;
+}
+.businessinfo h2{
+    font-size: 3rem;
+}
+
+.businesslink{
+    padding-top: 60px;
 }
 
