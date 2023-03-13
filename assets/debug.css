@@ -35,7 +35,8 @@ nav {
 }
 
 .jumbo {
-    margin-inline: 19rem;
+    margin-inline: auto;
+    max-width: 80%;
     height: 60vh;
     background-color: cadetblue;
     position: relative;
@@ -81,33 +82,83 @@ nav {
 
 
 .businessplan {
-    text-align: center;
     margin-top: 15rem;
     background-color: gray;
-    margin-inline: 19rem;
+    margin-inline: auto;
+    max-width: 80%;
 } 
 
 .businessplan h2 {
-    text-align: left;
     font-size: 4rem;
+    margin-left: 1rem;
 }
 
 .businessplan span {
     color: white;
+    margin-top: rem;
 }
 
-/* .options {
-    background-color: gray;
+.inputs {
+    margin-top: 4rem;
+    margin-left: 1rem;
     display: flex;
-    flex-direction: row;
+}
+
+.inputs p{
+    font-size: 1rem;
+    padding-right: 1.5rem;
+}
+
+.columns {
+    margin-inline: auto;
+    display: flex;
     justify-content: space-around;
 }
 
-
-.opt1, .opt2, .opt3 {
-    background-color: red;
+.column1, .column2, .column3 {
+    border: 1px solid black;
+    margin-top: 4rem;
+    width: calc(100% / 3 - 8rem);
+    display: flex;
+    flex-direction: column;
 }
 
- */
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .6rem;
+}
 
- */
+h4 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.info1, .info2, .info3, .info4 {
+    padding: 2rem;
+}
+
+.try {
+    padding-inline:  2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    color: white;
+    background-color: blue;
+    margin-inline:2rem;
+    text-decoration: none;
+}
+
+.info3 p {
+    margin: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+li {
+    padding: 1rem;
+    list-style-type: none;
+}
