@@ -1,0 +1,113 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    max-width: 100vw;
+    height: 4rem;
+}
+
+
+.navleft, .navright {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+
+.logo {
+    height: auto;
+    width: auto;
+}
+
+.jumbocontainer {
+    background-color: rgb(57, 57, 57);
+    width: 100%;
+}
+
+.jumbo {
+    margin-inline: 19rem;
+    height: 60vh;
+    background-color: cadetblue;
+    position: relative;
+}
+
+.jumboleft {
+    width: 35%;
+}
+
+.jumboright {
+    width: 65%;
+}
+
+.jumbo h1 {
+    font-size: 5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.jumbo img {
+    height: 500px;
+    aspect-ratio: 16/9;
+    position: absolute;
+    right: -80px;
+    bottom: -150px;
+}
+
+.jumbo p {
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+.jumbo button {
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+.freetrial {
+    padding-left: 1rem;
+}
+
+
+.businessplan {
+    text-align: center;
+    margin-top: 15rem;
+    background-color: gray;
+    margin-inline: 19rem;
+} 
+
+.businessplan h2 {
+    text-align: left;
+    font-size: 4rem;
+}
+
+.businessplan span {
+    color: white;
+}
+
+/* .options {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.opt1, .opt2, .opt3 {
+    background-color: red;
+}
+
+ */
+
+ */
