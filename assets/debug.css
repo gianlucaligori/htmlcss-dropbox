@@ -293,3 +293,66 @@ li {
     padding-top: 60px;
 }
 
+
+
+/*  */
+
+.boxcollabs {
+    margin-top: 10rem;
+    display: flex;
+    width: 100%;
+}
+
+.boxcollabs div {
+    /* border: 1px solid black; */
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+}
+
+.box {
+    /* border: 1px solid black; */
+    flex: 0 0 50%;
+    aspect-ratio: 1/1;
+}
+
+.leftbox, .rightbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.b1 {
+    background-color: #a2d39b;
+}
+
+.b2 {
+    background-color: #61082b;
+}
+
+.b3 {
+    background-color: #0093ce;
+}
+
+.b4 {
+    background-color: #ff1c1c;
+}
+
+.b5 {
+    background-color: #f5f5f5;
+}
+
+.b6 {
+    background-color: #d5001f;
+}
+
+.b7 {
+    background-color: #b4d0e7;
+}
+
+.b8 {
+    background-color: #0d2481;
+}
+
+.b9 {
+    background-color: #ffd830;
+}
+
