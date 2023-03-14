@@ -302,7 +302,7 @@ li {
 
 
 
-/*  */
+/* COLLABS */
 
 .boxcollabs {
     margin-top: 10rem;
@@ -355,7 +355,7 @@ li {
 .b5 {
     background-color: #f5f5f5;
     padding-inline: 2rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .b6 {
@@ -395,4 +395,41 @@ li {
     font-size: 1.2;
 }
 
+/* END COLLABS BOX */
+
+/* FREETRIAL BOX */
+
+.dropfreetrial {
+    width: 100%;
+    background-color: #b4d0e7;
+    display: flex;
+    height: 18rem;
+
+}
+
+.titlefreetrial {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.titlefreetrial h4 {
+    font-size: 3rem;
+}
+
+.titlefreetrial a {   /*HOVER DA METTERE*/
+    color: black;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+    padding-inline: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+
+/* END FREETRIAL BOX */
+
+
+/* START FAQ */
 
