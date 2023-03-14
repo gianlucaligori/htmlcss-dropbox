@@ -30,6 +30,15 @@ nav {
     gap: 2rem;
 }
 
+.navbutton {
+padding-inline:  1rem;
+padding-top: .4rem;
+padding-bottom: .4rem;
+color: white;
+background-color: blue;
+margin-inline:2rem;
+text-decoration: none;
+}
 
 .logo {
     height: auto;
@@ -39,19 +48,25 @@ nav {
 .jumbocontainer {
     /* background-color: rgb(57, 57, 57); */
     width: 100%;
+    background-color: #b4d0e7;
+
 }
 
 .jumbo {
     margin-inline: auto;
     max-width: 80%;
     height: 60vh;
-    background-color: #b4d0e7;
     position: relative;
 }
 
 .jumboleft {
     width: 35%;
 }
+
+
+.jumbo i {
+    font-size: 3rem;
+} 
 
 .jumboright {
     width: 65%;
@@ -84,7 +99,13 @@ nav {
 }
 
 .freetrial {
-    padding-left: 1rem;
+    padding-inline: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    color: white;
+    background-color: blue;
+    margin-inline:1rem;
+    text-decoration: none;
 }
 
 
@@ -358,6 +379,15 @@ li {
     overflow: auto;
 }
 
+.designit::before {     /*COPIARE QUI BEFORE O AFTER*/
+    content: "";
+    display: block;
+    width: 20%;
+    height:2rem;
+    border-top: 1px solid black;
+}
+
+
 .b6 {
     background-color: #d5001f;
 }
@@ -381,8 +411,9 @@ li {
 }
 
 .centralbox img {
-    height: 400px;
-    aspect-ratio: 3/4;
+    margin-top: 3rem;
+    width: 300px;
+    aspect-ratio: 4/3;
     filter: none;
 }
 
@@ -433,3 +464,84 @@ li {
 
 /* START FAQ */
 
+
+.faqbox {
+    margin-top: 10rem;
+    margin-inline: auto;
+    width: 50%;
+    height: 30rem;
+}
+
+.faqbox h2 {
+    margin-bottom: 4rem;
+}
+
+.Q::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height:2rem;
+    border-top: 1px solid black;
+}
+
+.Q {
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+
+/* PRENDERE QUI O AFTER O BEFORE */
+.faqbox:last-child::after {     
+    content: "";
+    display: block;
+    width: 100%;
+    height:2rem;
+    border-top: 1px solid black;
+}
+
+.Q i {
+    margin-left: 15rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    width: 70%;
+    margin: auto;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.footer-nav li:first-child {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-nav li {
+    margin-bottom: 1rem;
+}
+
+.lang::before {
+    content: "";
+    display: block;
+    width: 10rem;
+    height:1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid white;
+}
+
+.lang {
+  padding-bottom: 30px;
+  color: #999999;
+}
