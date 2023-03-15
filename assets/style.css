@@ -30,15 +30,21 @@ nav {
     gap: 2rem;
 }
 
-.navbutton {
-padding-inline:  1rem;
-padding-top: .4rem;
-padding-bottom: .4rem;
-color: white;
-background-color: blue;
-margin-inline:2rem;
-text-decoration: none;
+.navul :hover {
+    background-color: lightgray;
 }
+
+.navbutton {
+    padding-inline:  1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    color: white;
+    background-color: blue;
+    margin-inline:2rem;
+    text-decoration: none;
+    }
+
+
 
 .logo {
     height: auto;
@@ -154,9 +160,18 @@ text-decoration: none;
     padding: .6rem;
 }
 
+.info1 h4 {
+    padding-bottom: 2rem;
+}
+
 .info4 h4 {
     font-size: 1.4rem;
     padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.info1 .boldtext {
+    padding-bottom: 1rem;
 }
 
 .info1, .info2, .info3, .info4 {
@@ -191,6 +206,10 @@ li {
     list-style-type: none;
 }
 
+.fa-check {
+    color: blue;
+}
+
 /* TEAM BOX RECTANGLE */
 
 .teambox {
@@ -219,6 +238,13 @@ li {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    padding-inline:  2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    color: white;
+    background-color: blue;
+    margin-inline:2rem;
+    text-decoration: none;
 }
 
 .teaminfo2 {
