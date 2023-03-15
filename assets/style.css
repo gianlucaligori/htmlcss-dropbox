@@ -302,7 +302,7 @@ li {
 }
 
 
-/* BUSINESS BOX */
+/* BUSINESS BOXES */
 
 .business {
     width: 70%;
@@ -352,7 +352,7 @@ li {
 
 
 
-/* COLLABS */
+/* COLLABS BOXES */
 
 .boxcollabs {
     margin-top: 10rem;
@@ -371,6 +371,11 @@ li {
     flex: 0 0 50%;
     aspect-ratio: 1/1;
 }
+
+.box:hover {
+    filter: invert(1)
+}
+
 
 .leftbox, .rightbox {
     display: flex;
@@ -391,6 +396,7 @@ li {
 
 .b2 {
     background-color: #61082b;
+    border: currentColor;
 
 }
 
