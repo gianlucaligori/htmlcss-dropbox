@@ -178,7 +178,8 @@ nav {
 }
 
 .info1, .info2, .info3, .info4 {
-    padding: 2rem;
+padding-inline: 2rem;
+padding-top: 2rem;
 }
 
 .try {
@@ -299,6 +300,7 @@ li {
     padding-inline: 2rem;
     border: 1px solid black;
     text-decoration: none;
+    color: black;
 }
 
 
@@ -373,7 +375,7 @@ li {
 }
 
 .box:hover {
-    filter: invert(1)
+    box-shadow: inset 0 0 0 1rem #ffffff82;
 }
 
 
@@ -390,13 +392,11 @@ li {
 
 .b1 {
     background-color: #a2d39b;
-    border: 20px solid #d1e9cd;
 
 }
 
 .b2 {
     background-color: #61082b;
-    border: currentColor;
 
 }
 
